@@ -1,0 +1,14 @@
+### List items
+GET http://localhost:8080/items
+
+
+### Create item
+POST http://localhost:8080/items
+Content-Type: application/json
+
+{
+    "name" : "item2"
+}
+
+### Delete item
+DELETE http://localhost:8080/items/uuid
